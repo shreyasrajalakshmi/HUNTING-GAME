@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>bird</title>
+</head>
+<body onclick="document.getElementById('sound1').play();">
+    <audio controls autoplay>
+        <source src="/Forest Ambient  Sound Effect.m4a" type="audio/ogg">
+        <source src="/Forest Ambient  Sound Effect.m4a" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+
+    <audio id="sound1" src="Gun Shot Sound Effect.m4a" preload="auto"></audio>
+    <input type="checkbox" id="bird1">
+    <label for="bird1" class="bird"></label>
+
+    <input type="checkbox" id="bird2">
+    <label for="bird2" class="bird"></label>
+
+    <input type="checkbox" id="bird3">
+    <label for="bird3" class="bird"></label>
+
+    <input type="checkbox" id="bird4">
+    <label for="bird4" class="bird"></label>
+
+    <input type="checkbox" id="bird5">
+    <label for="bird5" class="bird"></label>
+
+    <div class="score"></div>
+</body>
+</html>
